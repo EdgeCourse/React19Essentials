@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "question": "What does the `useState` hook return?",
+    "options": [
+      "An object with state and dispatch",
+      "An array with the current state and a function to update it",
+      "A boolean flag",
+      "Only the current state"
+    ],
+    "answer": "An array with the current state and a function to update it"
+  },
+  {
+    "id": 2,
+    "question": "Which hook provides access to the nearest context value?",
+    "options": ["useEffect", "useState", "useContext", "useReducer"],
+    "answer": ""
+  },
+  {
+    "id": 3,
+    "question": "When does the `useEffect` hook run?",
+    "options": [
+      "Only on initial render",
+      "After every render by default",
+      "Before render",
+      "Only on updates"
+    ],
+    "answer": ""
+  },
+  {
+    "id": 4,
+    "question": "How do you create a dynamic route with `react-router-dom`?",
+    "options": [
+      "path='/static'",
+      "path='/user'",
+      "path='/user/:id'",
+      "path='user=id'"
+    ],
+    "answer": ""
+  },
+  {
+    "id": 5,
+    "question": "How do you navigate programmatically using `react-router-dom` v6?",
+    "options": [
+      "history.push('/home')",
+      "useHistory().push('/home')",
+      "useNavigate()('/home')",
+      "Router.navigate('/home')"
+    ],
+    "answer": ""
+  },
+  {
+    "id": 6,
+    "question": "What is the purpose of props in React?",
+    "options": [
+      "To manage state",
+      "To handle side effects",
+      "To pass data to components",
+      "To define routes"
+    ],
+    "answer": ""
+  },
+  {
+    "id": 7,
+    "question": "Which of the following is valid JSX syntax?",
+    "options": [
+      "`<h1 class='header'>Title</h1>`",
+      "`<h1 className='header'>Title</h1>`",
+      "`<h1 class:header>Title</h1>`",
+      "`<h1 class=header>Title</h1>`"
+    ],
+    "answer": ""
+  },
+  {
+    "id": 8,
+    "question": "How do you conditionally render JSX in React?",
+    "options": [
+      "Using `if` statements only",
+      "Using ternary operators or logical &&",
+      "Using switch cases inside return",
+      "Using HTML attributes"
+    ],
+    "answer": ""
+  },
+  {
+    "id": 9,
+    "question": "What does the `key` prop help React with?",
+    "options": [
+      "Faster styling",
+      "Triggering effects",
+      "Tracking elements in lists for optimal re-rendering",
+      "Passing props"
+    ],
+    "answer": ""
+  },
+  {
+    "id": 10,
+    "question": "Why is `React.Fragment` or shorthand `<>` used?",
+    "options": [
+      "To wrap multiple elements without adding extra nodes to the DOM",
+      "To make API calls",
+      "To update component state",
+      "To create routes"
+    ],
+    "answer": ""
+  }
+]
